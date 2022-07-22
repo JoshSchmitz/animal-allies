@@ -1,0 +1,669 @@
+/*=====================================================( GLOBALS )===*/
+/*===================================================================*/
+
+BODY, TD.centerColumn, TD.leftColumn, TD.rightColumn, .normal
+{
+    color: #000;
+    font-family: arial, verdana, sans, helvetica, sans-serif;
+    font-size: 9pt;
+}
+BODY
+{
+    background-color: transparent;
+    background-image: url(./images/site-bg.png);
+   	background-position: left top;
+   	border-top: 5px solid #602e12;
+   	margin: 0px;
+}
+#allContainer
+{
+		margin-top: 20px;
+}
+#darkBorder
+{
+		border: 2px solid black;
+		background-color: #3c1a07;
+		padding: 7px;
+}
+#whtBorder
+{
+		border: 1px solid white;
+		background-color: white;
+}
+#siteContent
+{
+		margin: 20px 20px;
+}
+TD.centerColumn
+{
+		padding: 10px 25px;
+}
+TD.leftColumn
+{
+}
+TD.rightColumn
+{
+}
+
+/*=======================================================( LINKS )===*/
+/*===================================================================*/
+
+.normal
+{
+}
+.subtext, .subtextlink, .subtextitalics, .subtextItalics
+{
+    font-size: 7.5pt;
+}
+A/*.centerColumn A, .leftColumn A, .rightColumn A, .printView A*/
+{
+    color: #8c461d;
+    /*font-weight: bold;*/
+}
+A:hover/*.centerColumn A:hover, .leftColumn A:hover, .rightColumn A:hover, .printView A:hover*/
+{
+    color: #333;
+}
+.itemLink
+{
+    font-weight: bold;
+}
+
+/*===================================================( HEADLINES )===*/
+/*===================================================================*/
+
+.headline1, .headline2, .headline3, .headline4
+{
+    font-weight: bold;
+    font-size: 12pt;
+}
+.headline1
+{
+    font-size: 18pt;
+}
+.headline2, .headline3
+{
+    font-size: 16pt;
+    font-family: times new roman;
+    letter-spacing: 0.15em;
+}
+.headline3
+{
+}
+.headline4
+{
+    font-size: 10pt;
+}
+.headlineDisplay A
+{
+    font-weight: bold;
+}
+SPAN.name
+{
+    font-size: 24pt;
+    font-weight: bold;
+    color: #21313f;
+    margin-left: 4px;
+}
+
+/*===============================================( BANNER PIECES )===*/
+/*===================================================================*/
+
+#bannerWrapper
+{
+    background-image: url(./images/banner-gradient.png);
+    background-repeat: repeat-x;
+   	background-position: left top;
+   	padding-top: 10px;
+   	position: relative;
+   	z-index: 2;
+}
+BODY.inner #bannerWrapper
+{
+		background-image: none;
+		padding-top: 0px;
+		border-bottom: 1px solid white;
+}
+#aaLogo
+{
+		width: 449px;
+		height: 77px;
+		margin-left: 25px;
+		margin-bottom: 25px;
+}
+BODY.inner #aaLogo
+{
+		margin-left: 0px;
+		position: absolute;
+		top: 15px;
+		left: 30px;
+		margin-bottom: 0px;
+}
+#blackCurve
+{
+		width: 760px;
+		height: 133px;
+		margin-left: 20px;
+}
+#animals
+{
+		position: absolute;
+		top: 80px;
+		left: 25px;
+		z-index: 3;
+}
+#animalA, #animalB, #animalC, #animalD, #animalE
+{
+		width: 729px;
+		height: 35px;
+}
+
+/*===========================================( SEARCH HORIZONTAL )===*/
+/*===================================================================*/
+
+#searchWrapper
+{
+		height: 100%; /* IE 6 */
+		background-color: #201c1d;
+		border-bottom: 1px solid white;
+		padding: 4px;
+		overflow: hidden;
+}
+.searchbox
+{
+		float: right;
+		margin: 0px;
+}
+.searchbox *
+{
+		vertical-align: middle;
+}
+span.searchbox_header
+{
+    color: white;
+    font-size: 8.5pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-right: 5px;
+}
+input.searchbox_field
+{
+		width: 160px;
+		font-size: 9pt;
+}
+.searchbox_controls, .searchbox_tips
+{
+		display: none;
+}
+A.goButton, A.goButton:hover
+{
+    border: 1px solid #8a451d;
+    padding: 2px 3px 2px 3px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 7pt;
+    background-color: #994c20;
+    margin-left: 5px;
+}
+A.goButton:hover
+{
+	background-color: #a65323;
+}
+
+/*==========================================( MAIN COLUMN PIECES )===*/
+/*===================================================================*/
+
+.contentbox_center, .sec, .item
+{
+}
+.contentbox_center_header, .sec_title
+{
+}
+.contentbox_center_body, .sec_summary
+{
+}
+.attachments
+{
+}
+.centerColumn A
+{
+
+}
+.centerColumn A:hover
+{
+
+}
+
+#uploadForm {
+	position: relative;
+	margin: auto;
+	background-color: #E0DAD1;
+	width: 758px;
+	padding: 0px, 5px;
+}
+
+#uploadTitle {
+	position: relative;
+	color: white;
+    font-weight: bold;
+    font-size: 10pt;
+    letter-spacing: 0.15em;
+    font-family: times new roman;
+	text-align: center;
+	height:0px;
+	bottom: 54px;
+}
+
+/*==========================================( LEFT COLUMN PIECES )===*/
+/*===================================================================*/
+
+/*
+	.contentbox_left, .subnavbox{}
+	.contentbox_left_header, .subnavbox_header{}
+	.contentbox_left_body, .subnavbox_body{}
+	.leftColumn A{}
+	.leftColumn A:hover{}
+*/
+
+/*==================================( LEFT / RIGHT COLUMN PIECES )===*/
+/*===================================================================*/
+
+.pawIcon
+{
+		width: 13px;
+}
+.contentbox_right, .sidebar, .contentbox_left, .subnavbox
+{
+		margin-bottom: 20px;
+}
+.contentbox_right_header, .sidebar_header, .contentbox_left_header, .subnavbox_header
+{
+    color: white;
+    font-weight: bold;
+    font-size: 12pt;
+    letter-spacing: 0.15em;
+    font-family: times new roman;
+    background-color: #994c20;
+    background-image: url(./images/SBtop-curve.png);
+    background-repeat: no-repeat;
+   	background-position: left top;
+    text-align: center;
+    padding: 8px 30px;
+}
+.contentbox_right_body, .sidebar_body, .contentbox_left_body, .subnavbox_body
+{
+    background-color: #d5cfcc;
+    padding: 15px 20px;
+}
+.rightColumn A
+{
+}
+.rightColumn A:hover
+{
+}
+.blackLine
+{
+		background-color: #201c1d;
+		height: 5px;
+		border-top: 1px solid white;
+		border-bottom: 1px solid white;
+}
+.bottomCurve
+{
+		background-color: #201c1d;
+    background-image: url(./images/SBbottom-curve.png);
+    background-repeat: no-repeat;
+   	background-position: left top;
+   	height: 30px;
+}
+#petText
+{
+		text-align: center;
+		padding: 1px 20px;
+}
+#petText A
+{
+		color: white;
+		text-decoration: none;
+		font-size: 7.5pt;
+}
+#petText A:hover
+{
+		color: black;
+}
+
+/*=============================================( GET INFO PIECES )===*/
+/*===================================================================*/
+
+#getInvolved
+{
+    background-image: url(./images/getInvolved-bg.png);
+    background-repeat: no-repeat;
+   	background-position: left top;
+		height: 276px;
+		width: 235px;
+		position: relative;
+}
+#GIlinks
+{
+		position: absolute;
+		top: 46px;
+		left: 20px;
+}
+#GIlinks A
+{
+		display: block;
+		color: #333;
+		font-weight: bold;
+		font-size: 14pt;
+		font-family: times new roman;
+		text-decoration: none;
+		margin-bottom: 23px;
+}
+#GIlinks A:hover
+{
+		color: #8c461d;
+}
+#emailSignUp
+{
+		position: absolute;
+		top: 135px;
+		left: 20px;
+		font-size: 8pt;
+}
+#emailTitle
+{
+		display: block;
+		color: #333;
+		font-weight: bold;
+		font-size: 14pt;
+		font-family: times new roman;
+		text-decoration: none;
+		margin-bottom: 10px;
+}
+
+/*===============================================( FOOTER PIECES )===*/
+/*===================================================================*/
+
+.footer
+{
+    font-size: 8pt;
+    color: white;
+    background-color: #201c1d;
+    text-align: center;
+    padding: 5px;
+}
+DIV.footernav
+{
+    text-align: center;
+}
+A.footernav, .verticalLogo_text A, #pvFooter A
+{
+    font-size: 8pt;
+    color: white;
+}
+A.footernav:hover, .verticalLogo_text A:hover, #pvFooter A:hover
+{
+		color: #ccc;
+}
+span.fNavText{color: white;}
+
+/*=============================================( MENU NAVIGATION )===*/
+/*===================================================================*/
+
+/*===========================================( ADJUSTABLE STYLES )===*/
+
+A.menuItem, A.menuItem_hi, DIV.menu
+{
+    width: 200px;
+}
+.menuItemPadder, .menuTitle, .menuTitle_hi, A.menuTitleNoLine
+{
+    padding: 6px 10px 6px 10px;
+}
+.menuTitle, .menuTitle_hi
+{
+    padding: 6px 10px 6px 10px;
+}
+.subTriangle
+{
+    top: 6px;
+}
+A.menuTitle, A.menuTitle_hi, A.menuItem, A.menuItem_hi, .subTriangle, A.menuTitleNoLine
+{
+    font-size: 9pt;
+    font-weight: bold;
+}
+
+/*=========================================( PRIMARY NAVIGATION )===*/
+
+A.menuTitle, A.menuTitle:visited, A.menuTitle_hi:visited, A.menuTitle_hi
+{
+		display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    background-image: url(./images/nav-line.png);
+    background-repeat: no-repeat;
+   	background-position: left bottom;
+}
+A.menuTitle_hi, A.menuTitle:hover, A.menuTitle_hi:hover, A.menuTitle_hi:visited
+{
+    color: #cc8b66;
+    text-decoration: none;
+    /*background-color: #80401b;*/
+}
+A.menuTitleNoLine, A.menuTitleNoLine:visited
+{
+		display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    background-image: none;
+}
+A.menuTitleNoLine:hover
+{
+    color: #cc8b66;
+    text-decoration: none;
+    /*background-color: #80401b;*/
+}
+
+/*=======================================( SECONDARY NAVIGATION )===*/
+
+#secNavBox A.menuTitle, #secNavBox A.menuTitle_hi
+{
+    color: white;
+    background-color: #a1b570;
+}
+#secNavBox A.menuTitle:hover, #secNavBox A.menuTitle_hi:hover, #secNavBox A.menuTitle_hi
+{
+    background-color: #707e4e;
+}
+
+/*=========================================( SUBSECTION NAVIGATION )===*/
+
+DIV.menu
+{
+    background-color: #80401b;
+  	border: 1px solid white;
+}
+
+/*#secNavBox DIV.menu
+{
+    background-color: #a1b570;
+  	border: 1px solid white;
+}*/
+A.menuItem, A.menuItem_hi, A.menuItem:visited, A.menuItem_hi:visited
+{
+    color: white;
+    text-decoration: none;
+}
+A.menuItem_hi
+{
+    background-color: #201c1d;
+}
+A.menuItem:hover, A.menuItem_hi:hover
+{
+    color: white;
+    background-color: #201c1d;
+    text-decoration: none;
+}
+/*#secNavBox A.menuItem_hi
+{
+    background-color: #707e4e;
+}
+#secNavBox A.menuItem:hover, #secNavBox A.menuItem_hi:hover
+{
+    color: white;
+    background-color: #707e4e;
+    text-decoration: none;
+}*/
+
+/*===================================( SUBSECTION-ONLY NAVIGATION )===*/
+
+.subnavbox
+{
+}
+.subnavbox_header
+{
+}
+.subnavbox_body
+{
+}
+.subnavDivTag
+{
+    margin-bottom: 0.5em;
+}
+.subnavbox A.subSectionLink, .subnavbox A.subSectionLink_high
+{
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+.subnavbox A.subSectionLink_high, .subnavbox A.subSectionLink:hover, .subnavbox A.subSectionLink_high:hover
+{
+    color: #8c461d;
+}
+
+/*=============================================( REQUIRED STYLES )===*/
+/*===================================================================*/
+
+.navVertical A.textButtonLink, .navVertical A.textButtonLink_high { display: block; }
+.navHorizontal A.textButtonLink, .navHorizontal A.textButtonLink_high { display: inline; }
+
+#prinavWrapper
+{
+    background-image: url(./images/homeNav-bg.png);
+    background-repeat: no-repeat;
+   	background-position: left top;
+   	margin-left: 20px;
+   	padding: 13px 32px 0px;
+}
+BODY.inner #prinavWrapper
+{
+    background-image: url(./images/innerNav-bg.png);
+    background-repeat: no-repeat;
+   	background-position: left top;
+   	padding: 6px 32px;
+   	margin-left: 0px;
+}
+.horizNavBox
+{
+    z-index: 6;
+}
+.vertNavBox
+{
+    z-index: 5;
+    margin-bottom: 1em;
+}
+.menuBar
+{
+    width: 100%;
+}
+DIV.menu
+{
+    z-index: 10;
+    position: absolute;
+    visibility: hidden;
+    top: 0px;
+    left: 0px;
+}
+A.menuTitle, A.menuTitle_hi
+{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.vertNavBox A.menuTitle, .vertNavBox A.menuTitle_hi
+{
+    white-space: normal;
+}
+A.menuItem, A.menuItem_hi
+{
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+}
+DIV.menuItemWrapper
+{
+    /*padding: 5px 1em 5px 7px;*/
+    padding-right: 1.2em;
+}
+.subTriangle, .subTriangle:hover
+{
+    position: absolute;
+    right: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+/*=================================( CSS CLASSES NEW CALENDAR )===*/
+/*================================================================*/
+
+.calMonth TABLE
+{
+    background-color: #231f20;
+}
+.calMonthName, .calYear
+{
+    font-size: 150%;
+    color: white;
+    font-weight: bold;
+}
+.calDayHeading
+{
+    background-color: #efcf5f;
+    color: black;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.calGrayDay
+{
+    background-color: #a9b4c2;
+    color: #333;
+}
+.calToday
+{
+    font-weight: bold;
+    background-color: #aecce1;
+}
+.eventTip
+{
+    border-color: #550;
+    background-color: #aecce1;
+}
+.calendarTable A
+{
+		color: #333333;
+}
+.calendarTable A:hover
+{
+		color: black;
+}
